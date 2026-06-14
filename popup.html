@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body { width: 280px; padding: 12px; font-family: sans-serif; background: #f9f9f9; color: #333; }
+        textarea { width: 100%; height: 80px; margin-bottom: 8px; box-sizing: border-box; resize: vertical; }
+        button { width: 100%; cursor: pointer; padding: 6px; margin-bottom: 6px; border: 1px solid #ccc; background: #fff; border-radius: 4px; }
+        button:hover { background: #f0f0f0; }
+        .btn-primary { background: #00215e; color: white; border: none; font-weight: bold; }
+        .btn-primary:hover { background: #1a3a7d; }
+        .row { display: flex; gap: 6px; justify-content: space-between; margin-bottom: 8px; }
+        .row button { margin-bottom: 0; flex: 1; }
+        label { font-size: 12px; display: flex; align-items: center; gap: 4px; margin-bottom: 8px; cursor: pointer; }
+        hr { border: 0; border-top: 1px solid #ddd; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <strong>Suchwörter / Regex:</strong>
+    <textarea id="words" placeholder="やる@べく@\/.*た\$/"></textarea>
+    
+    <label>
+        <input type="checkbox" id="isRegex"> Regex-Modus erzwingen
+    </label>
+
+    <button id="btn" class="btn-primary">Markieren</button>
+    
+    <hr>
+    
+    <strong>Datenbank (Wortlisten):</strong>
+    <div class="row">
+        <button id="btnSave">Liste Speichern</button>
+        <button id="btnLoad">Liste Importieren</button>
+    </div>
+    <input type="file" id="fileInput" accept=".txt,.csv" style="display:none">
+    
+    <script src="popup.js"></script>
+</body>
+</html>
