@@ -69,7 +69,7 @@ To automatically move new words you are learning from your **Anki** flashcards s
 
 
 
-### Step 2: Run the Python scripy vocappend.py
+### Step 2: Run the Python script vocappend.py
 
 1. Open your computer's Command Prompt (CMD) in the folder where you saved these addon files
 2. Run your Python script (`vocappend.py`).
