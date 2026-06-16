@@ -80,11 +80,21 @@ To automatically move new words you are learning from your **Anki** flashcards s
 ### Step 3: Load the Words Into Chrome
 
 1. Click the Text Markierer Pro extension icon in your Google Chrome toolbar.
-
 2. Click the button labeled **"Liste Importieren"** (`btnLoad`).
-
 3. Go to the folder where you saved this addon, click on voclist.txt.
 
-
-
 Now, whenever you browse any website, the extension will immediately catch, color-code, and track those exact vocabulary words live while you read!
+
+---
+
+### 📝 Note: How to Manually Remove Words from Your List
+
+If you ever want to stop a specific word from being highlighted, you can easily remove it from your list manually.
+
+For example, to remove the word **"example"**:
+
+1. Open your master text file (**`vocliste.txt`**) on your Desktop.
+2. Use the "Find and Replace" feature (Ctrl + F or Ctrl + H).
+3. Search for the word wrapped in symbols: **`@example@`**
+4. Replace it with just a single symbol: **`@`**
+5. Save the file and click **"Liste Importieren"** in the Chrome extension to update it.
