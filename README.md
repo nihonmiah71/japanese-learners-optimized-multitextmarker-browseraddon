@@ -67,15 +67,14 @@ To automatically move new words you are learning from your **Anki** flashcards s
 3. Select your new cards, open the **"Extract Inject Fields"** add-on menu, and choose **"Extract Fields"**.
 4. Select the `Word` field, choose plain text export, and save the file in your working folder exactly under the name **`extracted_fields1.tsv`**.
 
-
+https://github.com/user-attachments/assets/e1f7a36a-5fb6-4aff-8836-d2fc8ef7ddb6
 
 ### Step 2: Run the Python script vocappend.py
 
 1. Open your computer's Command Prompt (CMD) in the folder where you saved these addon files
-2. Run your Python script (`vocappend.py`).
-3. select `evxtracted_fields1.tsv`
+2. Run your Python script (`vocappend.py`). (enter py vocappend.py)
 
-
+https://github.com/user-attachments/assets/9014ee9d-5d1d-4d8d-9426-3e95aeab5619
 
 ### Step 3: Load the Words Into Chrome
 
