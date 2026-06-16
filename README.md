@@ -69,13 +69,11 @@ To automatically move new words you are learning from your **Anki** flashcards s
 
 
 
-### Step 2: Run the Quick Python Cleanup
+### Step 2: Run the Python scripy vocappend.py
 
-1. Open your computer's Command Prompt (CMD) in that same folder.
-2. Run your Python script (`verarbeite_tsv`).
-
-
-3. **What happens automatically:** The script instantly reads your exported Anki file, formats the words correctly by wrapping them in special `@` symbols, and appends them cleanly to your master list file (`vocliste.txt`) on your Desktop.
+1. Open your computer's Command Prompt (CMD) in the folder where you saved these addon files
+2. Run your Python script (`vocappend.py`).
+3. select `evxtracted_fields1.tsv`
 
 
 
@@ -83,11 +81,9 @@ To automatically move new words you are learning from your **Anki** flashcards s
 
 1. Click the Text Markierer Pro extension icon in your Google Chrome toolbar.
 
-
 2. Click the button labeled **"Liste Importieren"** (`btnLoad`).
 
-
-3. The extension instantly absorbs your updated master list.
+3. Go to the folder where you saved this addon, click on voclist.txt.
 
 
 
