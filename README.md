@@ -90,8 +90,6 @@ https://github.com/user-attachments/assets/9014ee9d-5d1d-4d8d-9426-3e95aeab5619
 
 Now, whenever you browse any website, the extension will immediately catch, color-code, and track those exact vocabulary words live while you read!
 
----
-
 ### 📝 Note: How to Manually Remove Words from Your List
 
 If you ever want to stop a specific word from being highlighted, you can easily remove it from your list manually.
@@ -103,3 +101,24 @@ For example, to remove the word **"example"**:
 3. Search for the word wrapped in symbols: **`@example@`**
 4. Replace it with just a single symbol: **`@`**
 5. Save the file and click **"Liste Importieren"** in the Chrome extension to update it.
+
+
+---
+
+## Installation & Usage
+
+Since this project is currently hosted on GitHub, you can install it as a developer extension on any Chromium-based browser (Google Chrome, Brave, Microsoft Edge, Vivaldi):
+
+### 1. Download the Extension
+
+* Clone this repository using Git, or download the source code as a ZIP file directly from GitHub and extract it into a local directory.
+
+### 2. Enable Developer Mode
+
+* Open your browser's extension management page by navigating to `chrome://extensions/`.
+* Toggle the **Developer mode** switch in the top-right corner.
+
+### 3. Load the Unpacked Folder
+
+* Click the **"Load unpacked"** button in the top-left corner.
+* Select the local folder containing the files of this repository.
