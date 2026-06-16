@@ -2,13 +2,15 @@
 
 The python scripts will probably not run on your system unless you installed all the right packages, some of them might only be supported for older pyhton versions (Python 3.12), debug with AI and install the required packages as needed.
 
----
-## Demo
-
-<video src="https://github.com/user-attachments/assets/e962ad63-3a1b-47c9-84d4-3fbccbbb1588" width="854" controls></video>
-
 
 ---
+
+## Overview
+
+<img width="2266" height="884" alt="image" src="https://github.com/user-attachments/assets/c82f63f2-68ab-4e71-8f36-2b2e8f9c3dfc" />
+
+---
+
 
 ## 🌟 What Text Markierer Pro Does (Key Features)
 
@@ -53,6 +55,10 @@ Whenever you start highlighting, a small blue handle appears on the edge of your
 * **Auto-Save:** It remembers your search terms and settings automatically every time you open or close it.
 
 
+---
+## Demo
+
+<video src="https://github.com/user-attachments/assets/e962ad63-3a1b-47c9-84d4-3fbccbbb1588" width="854" controls></video>
 
 ---
 
